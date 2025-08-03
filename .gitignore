@@ -1,112 +1,17 @@
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
 # Virtual Environments
 .env
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# PyCharm
-.idea/
-*.iws
-*.iml
-*.ipr
-
-# VS Code
-.vscode/
-*.code-workspace
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-Pipfile.lock
-
-# PEP 582
-__pypackages__/
-
-# Celery
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
 
 # Environments
 .env
 .env.local
 .env.*.local
 
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
 # macOS
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon*
-._*
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows (if collaborating with Windows users)
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
 
 # Project Specific
 # API Keys and Configuration
@@ -126,58 +31,13 @@ output_files/
 temp/
 tmp/
 
-# Logs
-logs/
-*.log
-log_*
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
 
 # Cache
 cache/
 .cache/
 
-# Model Files (if saving local models)
-models/
-*.pkl
-*.pickle
-*.model
 
-# Test Coverage
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Documentation builds
-docs/_build/
-docs/build/
-
-# Backup files
-*.bak
-*.backup
-*~
-
-# OS generated files
-.Spotlight-V100
-.Trashes
-.fseventsd
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# IDE and Editor files
-*.swp
-*.swo
-*~
 
 # uv specific
 .uv/
