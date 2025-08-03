@@ -1,0 +1,6 @@
+[tool.uv.workspace]
+members = [
+    "projects/p2-Job-Intelligence-Extractor"
+]
+
+# Root workspace configuration - no package build needed

@@ -1,0 +1,25 @@
+[project]
+name = "job-intelligence-extractor"
+version = "0.1.0"
+description = "Extracts and analyzes job posting data"
+requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "pandas",
+    "openai"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "ruff"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/job_intelligence_extractor"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
