@@ -15,4 +15,6 @@ data/
 
 # scripts
 scripts/
+# Ignore Jupyter Notebook files
+*.ipynb
 
