@@ -1,0 +1,47 @@
+{
+    "job_id": "unique_identifier",
+    "basic_info": {
+      "title": "Software Engineer",
+      "company": "Tech Corp",
+      "location": "San Francisco, CA",
+      "employment_type": "Full-time",
+      "experience_level": "Mid-level",
+      "salary_range": {"min": 120000, "max": 180000, "currency": "USD"},
+      "posting_date": "2024-01-15",
+      "application_deadline": "2024-02-15"
+    },
+    "requirements": {
+      "required_skills": ["Python", "AWS", "Docker"],
+      "preferred_skills": ["Kubernetes", "React"],
+      "education": "Bachelor's in Computer Science or equivalent",
+      "experience_years": {"min": 3, "max": 5},
+      "certifications": ["AWS Solutions Architect"],
+      "languages": ["English", "Spanish (preferred)"]
+    },
+    "responsibilities": [
+      "Develop scalable backend services",
+      "Collaborate with cross-functional teams"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "401k matching",
+      "Remote work options"
+    ],
+    "company_info": {
+      "industry": "Technology",
+      "size": "201-500 employees",
+      "description": "Leading fintech company...",
+      "funding_stage": "Series B",
+      "website": "https://techcorp.com"
+    },
+    "extracted_metadata": {
+      "source_format": "pdf",
+      "confidence_scores": {
+        "skills_extraction": 0.95,
+        "salary_extraction": 0.78,
+        "requirements_extraction": 0.92
+      },
+      "processing_timestamp": "2024-01-20T10:30:00Z",
+      "ai_model_used": "gpt-4-turbo"
+    }
+  }
