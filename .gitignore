@@ -13,3 +13,6 @@ config/
 # Data Files
 data/
 
+# scripts
+scripts/
+
